@@ -304,6 +304,7 @@
 #DEFINE WEAPON_CLASS    HANDGREN            "hand grenade"      "hgren"
 #DEFINE WEAPON_CLASS    MIRVGREN            "mirv grenade"      "mirv"
 #DEFINE WEAPON_CLASS    NAILGREN            "nail grenade"      "nailg"
+#DEFINE WEAPON_CLASS    SHOCKGREN           "shock grenade"     "shockg"
 
 #DEFINE WEAPON_CLASS    DETPACK             "detpack"           "dpack"
 #DEFINE WEAPON_CLASS    DISPENSER           "dispenser"         "disp"
@@ -354,6 +355,8 @@
 // Soldier
 #DEFINE OBITUARY	X_FRAGGED_BY_Y	NAILGREN		" gets flayed by "  "'s nail grenade"
 #DEFINE OBITUARY	X_FRAGGED_BY_Y	NAILGREN		" gets perforated by " "'s nail grenade"
+#DEFINE OBITUARY	X_FRAGGED_BY_Y	SHOCKGREN		" gets melted by "  "'s shock grenade"
+
 #DEFINE OBITUARY	X_FRAGGED_BY_Y	PROXI			" gets too friendly with " "'s Proxi grenade"
 #DEFINE OBITUARY	X_FRAGGED_BY_Y	ROCKET_LAUNCHER		" is reamed by " "'s rocket"
 #DEFINE OBITUARY	X_FRAGGED_BY_Y	ROCKET_LAUNCHER		"'s bunghole was ripped by " "'s rocket"
@@ -427,8 +430,8 @@
 #DEFINE OBITUARY	X_FRAGGED_BY_Y	SPANNER			" was spanner-murdered by "
 #DEFINE OBITUARY	X_FRAGGED_BY_Y	SPANNER			" was spanner-wacked by "
 #DEFINE OBITUARY	X_FRAGGED_BY_Y	TESLACOIL		"'s was obliterated by " "'s tesla coil"
-#DEFINE OBITUARY  X_FRAGGED_BY_Y  SGDEATH            "'s sentrygun was destroyed by "
-#DEFINE OBITUARY  X_TEAMKILLS_UNKNOWN SGDEATH        " destroys his sentrygun"
+#DEFINE OBITUARY	X_FRAGGED_BY_Y	SGDEATH			"'s sentrygun was destroyed by "
+#DEFINE OBITUARY	X_TEAMKILLS_UNKNOWN SGDEATH		" destroys his sentrygun"
 
 // General Kills
 #DEFINE OBITUARY	X_FRAGGED_BY_Y	AXE			" is split from crotch to sternum by " "'s axe swing"
@@ -601,8 +604,8 @@
 #DEFINE FLAG_ALERT	X_TOUCHES_FLAG		" has taken the Blue Flag!"
 #DEFINE FLAG_ALERT	X_TOUCHES_FLAG		" ÇÏÔ the ÂÌÕÅ flag!"
 #DEFINE FLAG_ALERT	X_TOUCHES_FLAG		" ÇÏÔ the ÒÅÄ flag!"
-#DEFINE FLAG_ALERT	X_TOUCHES_FLAG		" has the ÒÅÄ ÓÍÕÒÆ flag"
-#DEFINE FLAG_ALERT	X_TOUCHES_FLAG		" has the ÂÌÕÅ ÓÍÕÒÆ flag"
+#DEFINE FLAG_ALERT	X_TOUCHES_FLAG		" has the ÒÅÄ ÓÍÕÒÆ flag"
+#DEFINE FLAG_ALERT	X_TOUCHES_FLAG		" has the ÂÌÕÅ ÓÍÕÒÆ flag"
 #DEFINE FLAG_ALERT	X_TOUCHES_FLAG		" ÔÏÏË ÙÏÕÒ flag!"
 #DEFINE FLAG_ALERT	X_TOUCHES_FLAG		" ÔÏÏË the ÅÎÅÍÙ flag!"
 #DEFINE FLAG_ALERT	X_TOUCHES_FLAG		" ÃÁÐÔÕÒÅÄ the ÅÎÅÍÙ flag!"
@@ -650,11 +653,11 @@
 #DEFINE FLAG_ALERT	X_CAPTURES_FLAG		" brought back a Âéóãõéô"	//Biscuit Flag Capture
 #DEFINE FLAG_ALERT	X_CAPTURES_FLAG		" ÃÁÐÔÕÒÅÄ the ÅÎÅÍÙ flag!"	//2fort5 .br
 #DEFINE FLAG_ALERT	X_CAPTURES_FLAG		" Lava CP cap"			//Dissect 1
-#DEFINE FLAG_ALERT	X_CAPTURES_FLAG		" Bridge CP cap"		//Dissect 2
-#DEFINE FLAG_ALERT	X_CAPTURES_FLAG		" Water CP cap"		//Dissect 3
-#DEFINE FLAG_ALERT	X_CAPTURES_FLAG		" Circles CP cap"		//Dissect 4
-#DEFINE FLAG_ALERT	X_CAPTURES_FLAG		" Rook CP cap"			//Dissect 5
-#DEFINE FLAG_ALERT	X_CAPTURES_FLAG		" Attic CP cap"		//Dissect 6
+#DEFINE FLAG_ALERT	X_CAPTURES_FLAG		" Bridge CP? cap"		//Dissect 2
+#DEFINE FLAG_ALERT	X_CAPTURES_FLAG		" Water CP? cap"		//Dissect 3
+#DEFINE FLAG_ALERT	X_CAPTURES_FLAG		" Circles CP? cap"		//Dissect 4
+#DEFINE FLAG_ALERT	X_CAPTURES_FLAG		" Rook CP? cap"			//Dissect 5
+#DEFINE FLAG_ALERT	X_CAPTURES_FLAG		" Attic CP? cap"		//Dissect 6
 #DEFINE FLAG_ALERT	X_CAPTURES_FLAG		"ÛÂìõå ôåáíÝ captures the Âìõå ×áòåèïõóå ­ ÃÐ±"		//Canalzon 1 blue team
 #DEFINE FLAG_ALERT	X_CAPTURES_FLAG		"ÛÂìõå ôåáíÝ captures the Áòãè Òïïí ­ ÃÐ²"		//Canalzon 2 blue team
 #DEFINE FLAG_ALERT	X_CAPTURES_FLAG		"ÛÂìõå ôåáíÝ captures the Ìéâòáòù ­ ÃÐ³"		//Canalzon 3 blue team
