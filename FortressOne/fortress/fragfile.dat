@@ -530,6 +530,7 @@
 #DEFINE OBITUARY	PLAYER_SUICIDE	SENTRYGUN		" gets wasted by his sentry gun"
 #DEFINE OBITUARY	PLAYER_SUICIDE	SENTRYGUN		" intercepts his sentry gun's rocket"
 #DEFINE OBITUARY	PLAYER_SUICIDE	SENTRYGUN		" gets too friendly with his sentrygun"
+#DEFINE OBITUARY	PLAYER_SUICIDE	SENTRYGUN		" gets too friendly with his sentry gun"
 #DEFINE OBITUARY	PLAYER_SUICIDE	SENTRYGUN		" crossed his sentry gun's line of fire"
 
 
