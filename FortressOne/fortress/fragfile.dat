@@ -312,20 +312,20 @@
 // Create a weapon class so tracker can display SG Detahs.
 // FTE Seems to require 3x parameters, MegaTF weapon_class disabled.
 #DEFINE WEAPON_CLASS    SGDEATH            "destroys"        "SGdeath"
-#DEFINE WEAPON_CLASS    SENTRYGUN          "sentry"          "sent"
 
 // Mega TeamFortress
-#DEFINE WEAPON_CLASS    20MM                "20mm"
-#DEFINE WEAPON_CLASS    AIRSTRIKE           "airstrke"
-#DEFINE WEAPON_CLASS    DISEASE             "ill"	//as in illness
-#DEFINE WEAPON_CLASS    DRONE               "drone"
-#DEFINE WEAPON_CLASS    KNIFE               "knife"
-#DEFINE WEAPON_CLASS    PROXI               "proxi"
-//#DEFINE WEAPON_CLASS    SENTRYGUN           "sent"
-#DEFINE WEAPON_CLASS    SPANNER             "span"
-#DEFINE WEAPON_CLASS    SPIKE               "spike"
-#DEFINE WEAPON_CLASS    TESLACOIL           "tesla"
-#DEFINE WEAPON_CLASS    TOASTER             "toast"
+// FTE Seems to require 3x parameters, so updating the below
+#DEFINE WEAPON_CLASS    20MM                "20mm"      "20mm"
+#DEFINE WEAPON_CLASS    AIRSTRIKE           "airstrke"  "airstrke"
+#DEFINE WEAPON_CLASS    DISEASE             "ill"	      "ill" //as in illness
+#DEFINE WEAPON_CLASS    DRONE               "drone"     "drone"
+#DEFINE WEAPON_CLASS    KNIFE               "knife"     "knife"
+#DEFINE WEAPON_CLASS    PROXI               "proxi"     "proxi"
+#DEFINE WEAPON_CLASS    SENTRYGUN           "sentry"	  "sent"
+#DEFINE WEAPON_CLASS    SPANNER             "span"      "span"
+#DEFINE WEAPON_CLASS    SPIKE               "spike"     "spike"
+#DEFINE WEAPON_CLASS    TESLACOIL           "tesla"     "telsa"
+#DEFINE WEAPON_CLASS    TOASTER             "toast"     "toast"
 
 
 // Scout
